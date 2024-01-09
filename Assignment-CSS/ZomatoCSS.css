@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Okra, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #000000, opacity 0%;
+}
+
+:root {
+  --padding-inline-section: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1150px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* BoxCard Section */
+
+.boxcards-section {
+  margin-block: 60px;
+}
+
+.boxcards-slabs {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.boxcards-slabs h3 {
+  color: black;
+}
+
+.boxcards-slabs p {
+  color: grey;
+}
+
+.card-container-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card-text {
+  justify-content: space-between;
+}
+
+.card-text p {
+  font-size: 14px;
+}
+
+.card-container-box {
+  padding: 15px;
+  flex-direction: column;
+  max-width: 32%;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+.card-container-box:hover {
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(186, 183, 183);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-right-text {
+  margin-top: 10px;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.card-right-text p {
+  margin-block: 3px;
+}
+
+.card-left-text {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card-left-text p {
+  margin-top: 7px;
+}
+
+.card-right-text-header {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.card-right-text .card-right-text-header {
+  color: white;
+}
